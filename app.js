@@ -15,9 +15,9 @@ app.use(express.static("public"));
 
 app.use("/api/auth", authRoute);
 
+//mongo connect
 
 app.get("/", function (req, res) {
-
   res.send("Hello");
 
 });
