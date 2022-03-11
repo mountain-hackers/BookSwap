@@ -25,9 +25,6 @@ const UserSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
-    uploads:{
-      type: Upload,
-    },
 }, { timestamps: true }
 );
 

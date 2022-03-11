@@ -18,7 +18,7 @@ app.use("/api/auth", authRoute);
 //mongo connect
 
 app.get("/", function (req, res) {
-  res.send("Hello");
+  res.render("landing");
 
 });
 
