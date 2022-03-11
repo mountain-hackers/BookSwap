@@ -192,3 +192,44 @@ nav ul li a:hover {
     display: none;
   }
 }
+
+/* but sell page */
+
+#buy-sec {
+  background-color: #000;
+  height: 100vh;
+}
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.my-btn {
+  margin: 20px 0 0 0;
+  margin: auto;
+  padding: 3rem;
+}
+
+.my-btn button {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  font-size: 2rem;
+}
+
+.fa-bag-shopping,
+.fa-upload {
+  font-size: 4rem;
+}
+
+@media (max-width: 960px) {
+  .my-btn button {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 1rem;
+  }
+  .my-btn {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
