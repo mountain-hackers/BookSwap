@@ -22,6 +22,10 @@ const UploadSchema = new mongoose.Schema(
         Price:{
             type:Number,
             required: true
+        },
+        Stock:{
+            type:Number,
+            required: true
         }
     },
     {timestamps:true}
