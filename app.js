@@ -13,14 +13,21 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-app.use("/api/auth", authRoute);
+app.use("/auth", authRoute);
 
 //mongo connect
 
 app.get("/", function (req, res) {
   res.render("landing");
-
 });
+
+app.get("/about", function(req,res){
+  res.render("about");
+})
+
+app.get("/auth/login", async(req,res)=>{
+  res.render("login");
+})
 
 let port = process.env.PORT;
 if (port == null || port == "") {
