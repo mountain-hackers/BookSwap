@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const Upload = require("./Upload");
 
 const UserSchema = new mongoose.Schema(
   {
@@ -23,8 +24,11 @@ const UserSchema = new mongoose.Schema(
     profilePicture: {
       type: String,
       default: "",
-    }
-}
+    },
+    uploads:{
+      type: Upload,
+    },
+}, { timestamps: true }
 );
 
 module.exports = mongoose.model("User", UserSchema);
