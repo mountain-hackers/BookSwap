@@ -240,7 +240,7 @@ nav ul li a:hover {
   background-color: #000;
   color: #fefefe;
   padding: 4rem;
-  height: 100vh;
+  height: 100%;
 }
 
 .back-btn {
@@ -296,4 +296,33 @@ nav ul li a:hover {
 #upload-book {
   background-color: #000;
   height: 100vh;
+}
+
+
+/* order of a preview book */
+.d-flex #button{
+  cursor:pointer !important;
+  top:30%;
+  position:relative;
+    margin-left: auto;
+  margin-right: auto;
+  width:135px;
+  height:50px;
+  border-radius:60px;
+  background:#41488f;
+  line-height:46px;
+  text-align:center;
+  color:ivory;
+  font-weight:500;
+  overflow:hidden;
+  letter-spacing:.52px;
+}
+#w{
+  position:absolute;
+  text-align:center;
+  color:#e6e9ec;
+  font-weight:900;
+  left:38.5%;
+  transform:scale(1.5) translateY(100%);
+  
 }
