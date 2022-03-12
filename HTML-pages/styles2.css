@@ -1,229 +1,248 @@
-.{
-    margin:0px;
-    padding 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-color : #222d32!important;
-    font-family: 'Roboto', sans-serif;
+  background-color: #222d32 !important;
+  font-family: "Roboto", sans-serif;
 }
 .login-key {
-    height: 100px;
-    font-size: 80px;
-    line-height: 100px;
-    /* color: white; */
-    background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  height: 100px;
+  font-size: 80px;
+  line-height: 100px;
+  background: -webkit-linear-gradient(#27ef9f, #0db8de);
+  -webkit-text-fill-color: transparent;
 }
 
 .login-box {
-    margin-top: 75px;
-    height: auto;
-    background: #1A2226;
-    text-align: center;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-top: 75px;
+  height: auto;
+  background: #1a2226;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .login-title {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 2px;
-    margin-top: 15px;
-    font-weight: bold;
-    color: #ECF0F5;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ecf0f5;
 }
 
 .login-form {
-    margin-top: 25px;
-    text-align: left;
+  margin-top: 25px;
+  text-align: left;
 }
 
-input[type=text] {
-    background-color: #1A2226;
-    border: none;
-    border-bottom: 2px solid #0DB8DE; 
-    border-top: 0px;
-    border-radius: 0px;
-    font-weight: bold;
-    outline: 0;
-    margin-bottom: 20px;
-    padding-left: 0px;
-     color: #ECF0F5; 
+input[type="text"] {
+  background-color: #1a2226;
+  border: none;
+  border-bottom: 2px solid #0db8de;
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  color: #ecf0f5;
 }
 
-input[type=password] {
-    background-color: #1A2226;
-    border: none;
-     border-bottom: 2px solid #0DB8DE; 
-    border-top: 0px;
-    border-radius: 0px;
-    font-weight: bold;
-    outline: 0;
-    padding-left: 0px;
-    margin-bottom: 20px;
-     color: #ECF0F5; 
+input[type="password"] {
+  background-color: #1a2226;
+  border: none;
+  border-bottom: 2px solid #0db8de;
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  color: #ecf0f5;
 }
 
 .form-group {
-    margin-bottom: 40px;
-    outline: 0px;
+  margin-bottom: 40px;
+  outline: 0px;
 }
 
 .form-control:focus {
-    border-color: inherit;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-bottom: 2px solid #0DB8DE;
-    outline: 0;
-    background-color: #1A2226;
-    color: #ECF0F5;
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 2px solid #0db8de;
+  outline: 0;
+  background-color: #1a2226;
+  color: #ecf0f5;
 }
 
 input:focus {
-    outline: none;
-    box-shadow: 0 0 0;
+  outline: none;
+  box-shadow: 0 0 0;
 }
 
 label {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .form-control-label {
-    font-size: 10px;
-    color: #6C6C6C;
-    font-weight: bold;
-    letter-spacing: 1px;
+  font-size: 10px;
+  color: #6c6c6c;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
-
-/* .btn-outline-primary {
-    border-color: #0DB8DE;
-    color: #0DB8DE;
-    border-radius: 0px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.btn-outline-primary:hover {
-    background-color: #0DB8DE;
-    right: 0px;
-} */
 .btn-hover.color-9 {
-    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
-    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 .btn-hover {
-    width: 190px;
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    margin: 18px;
-    height: 50px;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
+  width: 190px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 18px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
 
-    border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .btn-hover:hover {
-    background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-
 .login-btm {
-    float: left;
+  float: left;
 }
 
 .login-button {
-    padding-right: 0px;
-    text-align: right;
-    margin-bottom: 25px;
+  padding-right: 0px;
+  text-align: right;
+  margin-bottom: 25px;
 }
 
 .login-text {
-    text-align: left;
-    padding-left: 0px;
-    color: #A2A4A4;
+  text-align: left;
+  padding-left: 0px;
+  color: #a2a4a4;
 }
 
 .loginbttm {
-    padding: 0px;
+  padding: 0px;
 }
 
 /*  ------------------- Card page CSS --------------------------- */
 
-.box-hover:hover {
-    border: 5px solid rgb(245, 210, 11);
-    /*position:relative;
-     margin:auto;
-      width:50%;
-      height:650px;
-      display:block;
-      z-index:999; */
-    width: 25%; 
-} 
-.cards{
-    width : 20%;
-    display: inline-block;
-    background-color: rgb(231, 227, 219);
-    border-radius: 5px;
-    box-shadow : 2px 2px 10px black;
-  }
-
-.remove{
-      margin: 5% 3% 5% 0%!important;
-      text-align: center
-  }
-
-.image img{
-      width: 100%;
-      border-top-right-radius: 5px;
-      border-top-left-radius: 5px;
-  }
-.title{
-      text-align: center;
-      padding:5px;
-  }
-.des{
-      text-align: center;
-      padding:4px;
-  }
-button{
-      margin-top:30px;
-      margin-bottom: 30px;
-      background-color: rgb(245, 215, 46);
-      border: 1px solid black;
-      padding:5px;
-      border-radius:5px;
-      cursor: pointer;
-
-  }
-
-button:hover{
-    background-color: #1A2226;
-    color:#fff;
-    transition: .5%;
+#card-page {
+  background-color: #000;
+  height: 100%;
+  padding: 1rem;
 }
-.small{
-    margin-top:20px;
-    margin-bottom:25px;
-    margin-left: 10px;
-    padding:5px;
-    border-radius:5px;
-    cursor:pointer;
+.cards {
+  width: 20%;
+  display: inline-block;
+  background-color: rgb(231, 227, 219);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px black;
+  cursor: pointer;
+  z-index: 0;
 }
-.author-name{
-    text-align:right;
-    padding:5px;
+
+.remove {
+  margin: 5% 3% 5% 0% !important;
+  text-align: center;
+}
+
+.image img {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.title2 {
+  text-align: center;
+  padding: 5px;
+}
+.title2 h1 {
+  color: #04befe;
+}
+.des {
+  text-align: center;
+  padding: 4px;
+}
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(250, 67, 76);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.red-color {
+  color: red;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #1a2226;
+  color: #fff;
+  transition: 0.5%;
+}
+.small {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.remove {
+  width: 100%;
+  margin: 10px;
+}
+.author-name {
+  text-align: right;
+}
+
+.card-btn {
+  width: 100px;
+}
+.main {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  grid-gap: 1rem !important;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .main {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
 }

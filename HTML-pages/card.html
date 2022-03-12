@@ -5,16 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles2.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/6f694d51cb.js" crossorigin="anonymous"></script>
     <title>Cards</title>
+    <script
+    src="https://kit.fontawesome.com/fb0123c498.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
-<div class ="main">
-    <div class ="cards box-hover pointer ">
+<nav expand="lg" id="nav_bar">
+    <div class="container">
+      <div class="title" href="/home">
+        <p>
+          <i class="fa-solid fa-book"></i> BOOKSWAP</span>
+        </p>
+      </div>
+
+      <input type="checkbox" name="check" id="check" />
+      <label for="check" class="checkbtn"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <ul class="firstNav">
+        <li><a class="navitem" href="">Browse Books</a></li>
+
+        <li><a class="navitem" href="/about">About</a></li>
+        <li><a class="navitem" href="/">Contacts</a></li>
+        
+        <li>
+          <a class="navitem" href="/"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+        </li>
+        <li><a class="navitem" href="/"> <img src="https://www.pngall.com/wp-content/uploads/5/User-Profile-Transparent.png" class="profile-img" alt=""> </a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+<!-- cards -->
+
+<section id="card-page">
+<div class="btn btn-hover color-9"><i class="fa-solid fa-left-long"></i> <a href=""> Back</a></div>
+<div class ="main container m-auto">
+    <div class ="cards  pointer col m-lg-2 ">
         <div class ="image">
             <img src="https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg" class="card-img-top" alt="..."> 
         </div>
-        <div class = "title">
+        <div class = "title2">
                 <h1>Book Name</h1>
                 <p class ="author-name">
                     - Author name
@@ -24,18 +62,18 @@
         <div class ="des">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#" class="btn small btn-info ">Stock</a>
-            <a href="#" class="btn small btn-info" >Price</a>
+            <a href="#" class="btn small btn-info ">Stock :  <span class="red-color"> 5</span></a>
+            <a href="#" class="btn small btn-info" >Price :<span class="red-color">  14$ </span></a>
             <br>
-         <button > Remove </button>   
+         <button  class="remove"> Remove </button>   
         </div>
     </div>
     
-    <div class ="cards box-hover pointer ">
+    <div class ="cards box-hover pointer col m-lg-2 ">
         <div class ="image">
             <img src="https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg" class="card-img-top" alt="..."> 
         </div>
-        <div class = "title">
+        <div class = "title2">
                 <h1>Book Name</h1>
                 <p class ="author-name">
                     - Author name
@@ -45,18 +83,18 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             
-            <a href="#" class="btn small btn-info ">Stock</a>
-            <a href="#" class="btn small btn-info" >Price</a>
+                <a href="#" class="btn small btn-info ">Stock :  <span class="red-color"> 5</span></a>
+                <a href="#" class="btn small btn-info" >Price :<span class="red-color">  14$ </span></a>
             <br>
-         <button > Remove </button>   
+         <button class="remove" > Remove </button>   
         </div>
     </div>
 
-    <div class ="cards box-hover pointer ">
+    <div class ="cards box-hover pointer col m-lg-2 ">
         <div class ="image">
             <img src="https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg" class="card-img-top" alt="..."> 
         </div>
-        <div class = "title">
+        <div class = "title2">
                 <h1>Book Name</h1>
                 <p class ="author-name">
                     - Author name
@@ -66,18 +104,18 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             
-            <a href="#" class="btn small btn-info ">Stock</a>
-            <a href="#" class="btn small btn-info" >Price</a>
+                <a href="#" class="btn small btn-info ">Stock :  <span class="red-color"> 5</span></a>
+                <a href="#" class="btn small btn-info" >Price :<span class="red-color">  14$ </span></a>
             <br>
-         <button > Remove </button>   
+         <button class="remove" > Remove </button>   
         </div>
     </div>
     
-    <div class ="cards box-hover pointer ">
+    <div class ="cards box-hover pointer col m-lg-2 ">
         <div class ="image">
             <img src="https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg" class="card-img-top" alt="..."> 
         </div>
-        <div class = "title">
+        <div class = "title2">
                 <h1>Book Name</h1>
                 <p class ="author-name">
                     - Author name
@@ -87,12 +125,14 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             
-            <a href="#" class="btn small btn-info ">Stock</a>
-            <a href="#" class="btn small btn-info" >Price</a>
+                <a href="#" class="btn small btn-info ">Stock :  <span class="red-color"> 5</span></a>
+                <a href="#" class="btn small btn-info" >Price :<span class="red-color">  14$ </span></a>
             <br>
-         <button > Remove </button>   
+         <button class="remove"> Remove </button>   
         </div>
     </div>
 </div>
+
+</section>
 </body>
 </html>
