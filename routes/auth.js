@@ -4,17 +4,20 @@ const bcrypt = require("bcrypt");
 const { findOne } = require("../models/User.js");
 
 //register
-router.get("/register", async (req,res)=>{
-    const user = await new User({
-        username: "kanak",
-        email: "kanak@gmail.com",
-        password: "123456"
-    })
-    await user.save();
-    res.send("ok");
-});
+// router.get("/register", async (req,res)=>{
+//     const user = await new User({
+//         username: "kanak",
+//         email: "kanak@gmail.com",
+//         password: "123456"
+//     })
+//     await user.save();
+//     res.send("ok");
+// });
 
 router.post("/register", async (req,res)=>{
+
+    console.log(req.body.username);
+
     try{
         // salting pswd
         const salt = await bcrypt.genSalt(11);
@@ -29,7 +32,8 @@ router.post("/register", async (req,res)=>{
         
         //save user and return status
         const user = await newUser.save();
-        res.status(200).json(user);
+        // res.status(200).json(user);
+        res.redirect("/dashboard");
     }
     catch(err){
         res.status(500).json(err);
@@ -46,7 +50,9 @@ router.post("/login", async (req,res)=>{
         const validPassword = await bcrypt.compare(req.body.password, user.password);
         !validPassword && res.status(400).json("Invalid password");
 
-        res.status(200).json(user);
+        // res.status(200).json(user);
+        res.redirect("/dashboard");
+        
     }
     catch(err){
         res.status(500).json(err);
