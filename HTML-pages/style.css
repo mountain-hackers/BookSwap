@@ -72,6 +72,7 @@ nav ul li a:hover {
     left: -100%;
     text-align: center;
     transition: all 0.5s;
+    z-index: 1;
   }
 
   nav ul li {
@@ -289,4 +290,10 @@ nav ul li a:hover {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1rem;
   }
+}
+
+/* upload your books */
+#upload-book {
+  background-color: #000;
+  height: 100vh;
 }
