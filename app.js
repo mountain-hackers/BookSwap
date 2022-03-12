@@ -46,6 +46,13 @@ app.get("/dashboard", function (req, res) {
   res.render("dashboard");
 });
 
+app.get("/buybook", function (req, res) {
+  res.render("dashboard");
+});
+
+app.post("/sellbook", function (req, res) {
+  res.render("uploadBook");
+});
 
 let port = process.env.PORT;
 if (port == null || port == "") {

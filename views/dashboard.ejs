@@ -45,13 +45,19 @@
 
   <section id="buy-sec">
     <div class="container my-btn d-flex justify-content-center">
-      <button class="buy btn btn-hover color-9"> <i class="fa-solid fa-bag-shopping"></i><br><br>
-         Buy Book
-      </button>
-      <button class="sell btn btn-hover color-9"> <i class="fa-solid fa-upload"></i><br><br>
+      <form action="/buybook" method="post">
+        <button class="buy btn btn-hover color-9" href="/buybook"> <i class="fa-solid fa-bag-shopping"></i><br><br>
+          Buy Book
+       </button>
+      </form>
+      
+        <form action="/sellbook" method="post">
+          <button class="sell btn btn-hover color-9" type="submit"> <i class="fa-solid fa-upload"></i><br><br>
 
- Sell Book
-      </button>
+            Sell Book
+                 </button>
+        </form>
+     
     </div>
   </section>
   </body>
