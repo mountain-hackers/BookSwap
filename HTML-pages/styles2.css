@@ -182,13 +182,7 @@ form {
     box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
-
-
-
-
-
 /*  ------------------- Card page CSS --------------------------- */
-
 .box-hover:hover {
     border: 5px solid rgb(245, 210, 11);
     /*position:relative;
@@ -253,3 +247,12 @@ button:hover{
     text-align:right;
     padding:5px;
 }
+
+/*  Payment details */
+.payment{
+    margin: 5%;
+}
+.credit-card{
+    color: rgb(6, 130, 168)!important;
+}
+
