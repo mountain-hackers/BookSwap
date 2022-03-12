@@ -230,12 +230,12 @@ button:hover{
     background-color: #1A2226;
     color:#fff;
     transition: .5%;
+}
 
 #card-page {
   background-color: #000;
   height: 100%;
   padding: 1rem;
-
 }
 .cards {
   width: 20%;
